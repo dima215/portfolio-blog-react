@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from './Logo/Logo'
-import Menu from './Menu/Menu'
-import Slider from './Slider/Slider'
+import Logo from '../../components/Logo/Logo'
+import Menu from '../../components/Menu/Menu'
+import Slider from '../../components/Slider/Slider'
 
 const Header = () => {
     return (

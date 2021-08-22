@@ -1,9 +1,10 @@
 import React from 'react'
 
-import textDocument from '../../../assets/text_document_add.svg'
-import chatMessage from '../../../assets/chat_message.svg'
-import recipesTips from '../../../assets/home_recipes_tips.png'
-import logoFooter from '../../../assets/home_recipes_logo_footer.png'
+import textDocument from '../../assets/text_document_add.svg'
+import chatMessage from '../../assets/chat_message.svg'
+import recipesTips from '../../assets/home_recipes_tips.png'
+import logoFooter from '../../assets/home_recipes_logo_footer.png'
+import CookList from '../../components/Cooks/CooksList'
 
 const Main = () => {
     return (
@@ -13,79 +14,7 @@ const Main = () => {
                     <div className="patterns">
                         <h2>What do we love to cook?</h2>
                     </div>
-                    <div className="row cook">
-                        <div className="col-xs-12 col-md-3">
-                            <div className="cook-item">
-                                <div className="cook-item-img one">
-                                    <a href=""></a>
-                                    <div className="cook-item-line"></div>
-                                </div>
-
-                                <div className="cook-item-name">
-                                    <h4>Nunc pretium</h4>
-                                </div>
-                                <div className="cook-item-about">
-                                    <p>
-                                        Integer ac risus bibendum, facilisis
-                                        velit cursus, finibus ante
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xs-12 col-md-3">
-                            <div className="cook-item">
-                                <div className="cook-item-img two">
-                                    <a href=""></a>
-                                    <div className="cook-item-line"></div>
-                                </div>
-
-                                <div className="cook-item-name">
-                                    <h4>Quisque ut tempus</h4>
-                                </div>
-                                <div className="cook-item-about">
-                                    <p>
-                                        Nam et dictum lectus. Integer leo metus,
-                                        lacinia a nunc id
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xs-12 col-md-3">
-                            <div className="cook-item">
-                                <div className="cook-item-img three">
-                                    <a href=""></a>
-                                    <div className="cook-item-line"></div>
-                                </div>
-
-                                <div className="cook-item-name">
-                                    <h4>Curabitur accumsan</h4>
-                                </div>
-                                <div className="cook-item-about">
-                                    <p>
-                                        Aenean in ornare risus, id ultrices
-                                        velit. Curabitur ac consequat
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xs-12 col-md-3">
-                            <div className="cook-item">
-                                <div className="cook-item-img four">
-                                    <a href=""></a>
-                                    <div className="cook-item-line"></div>
-                                </div>
-                                <div className="cook-item-name">
-                                    <h4>Vivamus commodo</h4>
-                                </div>
-                                <div className="cook-item-about">
-                                    <p>
-                                        Nulla facilisi. In hac habitasse platea
-                                        dictumst. Sed mattis magna
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <CookList />
                     <div className="section-line">
                         <div className="line-top"></div>
                         <div className="line-centr"></div>

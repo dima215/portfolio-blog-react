@@ -7,7 +7,7 @@ body {
         sans-serif;
     /*font-family: 'Roboto',
     sans-serif;*/
-    background-image: url(../../assets/home_recipes_bg.jpg);
+    background-image: url(../assets/home_recipes_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ body {
 .logo {
     height: 195px;
     background-color: rgba(251, 251, 238, 1);
-    background-image: url(../../assets/home_recipes_topbar_pattern.png);
+    background-image: url(../assets/home_recipes_topbar_pattern.png);
     background-repeat: repeat-x;
     background-position: top center;
     text-align: center;
@@ -141,12 +141,12 @@ body {
 
 .top-slider-item-one {
 
-    background-image: url(../../assets/home_recipes_slide_1.jpg);
+    background-image: url(../assets/home_recipes_slide_1.jpg);
 
 }
 
 .top-slider-item-two {
-    background-image: url(../../assets/home_recipes_slide_2.jpg);
+    background-image: url(../assets/home_recipes_slide_2.jpg);
 }
 
 .slick-dots li button:before {
@@ -214,7 +214,7 @@ body {
 /*MAIN section 1 patterns*/
 
 .patterns {
-    background-image: url(../../assets/home_recipes_heading_pattern.png);
+    background-image: url(../assets/home_recipes_heading_pattern.png);
     height: 105px;
     background-position: bottom center;
     margin-top: -30px;
@@ -303,19 +303,19 @@ body {
 }
 
 .one {
-    background-image: url(../../assets/home_recipes_home_icon4.png);
+    background-image: url(../assets/home_recipes_home_icon4.png);
 }
 
 .two {
-    background-image: url(../../assets/home_recipes_home_icon3.png);
+    background-image: url(../assets/home_recipes_home_icon3.png);
 }
 
 .three {
-    background-image: url(../../assets/home_recipes_home_icon2.png);
+    background-image: url(../assets/home_recipes_home_icon2.png);
 }
 
 .four {
-    background-image: url(../../assets/home_recipes_home_icon1.png);
+    background-image: url(../assets/home_recipes_home_icon1.png);
 }
 
 .cook-item-line {
@@ -419,19 +419,19 @@ body {
 }
 
 .recipes-img.img1 {
-    background-image: url(../../assets/home_recipes_blog7.jpg);
+    background-image: url(../assets/home_recipes_blog7.jpg);
 }
 
 .recipes-img.img2 {
-    background-image: url(../../assets/home_recipes_blog6.jpg);
+    background-image: url(../assets/home_recipes_blog6.jpg);
 }
 
 .recipes-img.img3 {
-    background-image: url(../../assets/home_recipes_blog1.jpg);
+    background-image: url(../assets/home_recipes_blog1.jpg);
 }
 
 .recipes-img.img4 {
-    background-image: url(../../assets/home_recipes_blog2.jpg);
+    background-image: url(../assets/home_recipes_blog2.jpg);
 }
 
 .recipes-img:hover {
@@ -472,11 +472,11 @@ body {
 }
 
 .recipes-img-find {
-    background-image: url(../../assets/search.svg);
+    background-image: url(../assets/search.svg);
 }
 
 .recipes-img-hyperlink {
-    background-image: url(../../assets/hyperlink.svg);
+    background-image: url(../assets/hyperlink.svg);
 }
 
 .recipes-img-find:hover,
@@ -672,27 +672,27 @@ body {
 }
 
 .image1 {
-    background-image: url(../../assets/home_recipes_gallery1-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery1-300x300.jpg);
 }
 
 .image2 {
-    background-image: url(../../assets/home_recipes_gallery5-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery5-300x300.jpg);
 }
 
 .image3 {
-    background-image: url(../../assets/home_recipes_gallery6-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery6-300x300.jpg);
 }
 
 .image4 {
-    background-image: url(../../assets/home_recipes_gallery7-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery7-300x300.jpg);
 }
 
 .image5 {
-    background-image: url(../../assets/home_recipes_gallery8-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery8-300x300.jpg);
 }
 
 .image6 {
-    background-image: url(../../assets/home_recipes_gallery9-300x300.jpg);
+    background-image: url(../assets/home_recipes_gallery9-300x300.jpg);
 }
 
 
