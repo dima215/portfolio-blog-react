@@ -28,14 +28,28 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img1">
-                                <a href="https://www.google.com/"></a>
+                                <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
+                                </a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -43,6 +57,9 @@ const Main = () => {
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
                                 <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
                                     <h3>
                                         Proin dui sodales imperdi sit sapien
                                         fames ac luctus
@@ -59,12 +76,22 @@ const Main = () => {
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
                                     <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
                                         Read more
                                     </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="https://www.google.com/">2</a>
+                                    <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
+                                        2
+                                    </a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -74,14 +101,28 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img2">
-                                <a href="https://www.google.com/"></a>
+                                <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
+                                </a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -89,6 +130,9 @@ const Main = () => {
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
                                 <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
                                     <h3>Vestibulum commodo volutpat laoreet</h3>
                                 </a>
                                 <p>
@@ -103,12 +147,22 @@ const Main = () => {
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
                                     <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
                                         Read more
                                     </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="https://www.google.com/">0</a>
+                                    <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
+                                        0
+                                    </a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -118,14 +172,28 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img3">
-                                <a href="https://www.google.com/"></a>
+                                <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
+                                </a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -133,6 +201,9 @@ const Main = () => {
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
                                 <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
                                     <h3>
                                         Quisque lorem tortor fringilla sed vesti
                                         bulum justo vel
@@ -149,12 +220,22 @@ const Main = () => {
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
                                     <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
                                         Read more
                                     </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="https://www.google.com/">0</a>
+                                    <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
+                                        0
+                                    </a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -164,14 +245,28 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img4">
-                                <a href="https://www.google.com/"></a>
+                                <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
+                                </a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="https://www.google.com/"></a>
+                                        <a href="https://www.google.com/">
+                                            <span>
+                                                Washington stimulates economic
+                                                growth{' '}
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -179,6 +274,9 @@ const Main = () => {
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
                                 <a href="https://www.google.com/">
+                                    <span>
+                                        Washington stimulates economic growth{' '}
+                                    </span>
                                     <h3>
                                         Vivamus sit amet metus sem imperdiet
                                     </h3>
@@ -194,12 +292,22 @@ const Main = () => {
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
                                     <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
                                         Read more
                                     </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="https://www.google.com/">0</a>
+                                    <a href="https://www.google.com/">
+                                        <span>
+                                            Washington stimulates economic
+                                            growth{' '}
+                                        </span>
+                                        0
+                                    </a>
                                 </div>
                                 <div className="line-vertical"></div>
                             </div>
@@ -207,7 +315,12 @@ const Main = () => {
                     </div>
                     <div className="recipes">
                         <div className="button button_label">
-                            <a href="https://www.google.com/">See all posts</a>
+                            <a href="https://www.google.com/">
+                                <span>
+                                    Washington stimulates economic growth{' '}
+                                </span>
+                                See all posts
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -263,6 +376,10 @@ const Main = () => {
                                                     taciti sociosqu ad litora.
                                                 </p>
                                                 <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
                                                     Read more
                                                 </a>
                                             </div>
@@ -284,32 +401,62 @@ const Main = () => {
                                     <div className="row gallery-img">
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image1">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image2">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image3">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image4">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image5">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image6">
-                                                <a href="https://www.google.com/"></a>
+                                                <a href="https://www.google.com/">
+                                                    <span>
+                                                        Washington stimulates
+                                                        economic growth{' '}
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -348,21 +495,45 @@ const Main = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Velit mauris
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Entum feuis
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Aliquam massa
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Egestas quam
                                                             </a>
                                                         </li>
@@ -372,21 +543,45 @@ const Main = () => {
                                                     <ul>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Aenean ligula
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Dapibus at dolor
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Molestie id
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="https://www.google.com/">
+                                                                <span>
+                                                                    Washington
+                                                                    stimulates
+                                                                    economic
+                                                                    growth{' '}
+                                                                </span>
                                                                 Vestibulum
                                                             </a>
                                                         </li>
