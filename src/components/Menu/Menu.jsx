@@ -7,22 +7,24 @@ const Menu = () => {
                 <div className="menu-line"></div>
                 <ul className="menu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="https://www.google.com/">Home</a>
                     </li>
                     <li>
-                        <a href="#">Traditional recipes</a>
+                        <a href="https://www.google.com/">
+                            Traditional recipes
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Image gallery</a>
+                        <a href="https://www.google.com/">Image gallery</a>
                     </li>
                     <li>
-                        <a href="#">About us</a>
+                        <a href="https://www.google.com/">About us</a>
                     </li>
                     <li>
-                        <a href="#">Contact us</a>
+                        <a href="https://www.google.com/">Contact us</a>
                     </li>
                     <li>
-                        <a href="#">Buy now</a>
+                        <a href="https://www.google.com/">Buy now</a>
                     </li>
                 </ul>
             </nav>

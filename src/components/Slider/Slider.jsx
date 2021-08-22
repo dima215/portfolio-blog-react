@@ -22,7 +22,7 @@ const Slider = () => {
                             </p>
                         </div>
                         <div className="button">
-                            <a href="#">View recipes</a>
+                            <a href="https://www.google.com/">View recipes</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Slider = () => {
                             </p>
                         </div>
                         <div className="button">
-                            <a href="#">View recipes</a>
+                            <a href="https://www.google.com/">View recipes</a>
                         </div>
                     </div>
                 </div>

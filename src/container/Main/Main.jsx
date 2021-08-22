@@ -28,21 +28,21 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img1">
-                                <a href="#"></a>
+                                <a href="https://www.google.com/"></a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
-                                <a href="#">
+                                <a href="https://www.google.com/">
                                     <h3>
                                         Proin dui sodales imperdi sit sapien
                                         fames ac luctus
@@ -58,11 +58,13 @@ const Main = () => {
                             <div className="recipes-footer">
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
-                                    <a href="#">Read more</a>
+                                    <a href="https://www.google.com/">
+                                        Read more
+                                    </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="#">2</a>
+                                    <a href="https://www.google.com/">2</a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -72,21 +74,21 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img2">
-                                <a href="#"></a>
+                                <a href="https://www.google.com/"></a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
-                                <a href="#">
+                                <a href="https://www.google.com/">
                                     <h3>Vestibulum commodo volutpat laoreet</h3>
                                 </a>
                                 <p>
@@ -100,11 +102,13 @@ const Main = () => {
                             <div className="recipes-footer">
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
-                                    <a href="#">Read more</a>
+                                    <a href="https://www.google.com/">
+                                        Read more
+                                    </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="#">0</a>
+                                    <a href="https://www.google.com/">0</a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -114,21 +118,21 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img3">
-                                <a href="#"></a>
+                                <a href="https://www.google.com/"></a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
-                                <a href="#">
+                                <a href="https://www.google.com/">
                                     <h3>
                                         Quisque lorem tortor fringilla sed vesti
                                         bulum justo vel
@@ -144,11 +148,13 @@ const Main = () => {
                             <div className="recipes-footer">
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
-                                    <a href="#">Read more</a>
+                                    <a href="https://www.google.com/">
+                                        Read more
+                                    </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="#">0</a>
+                                    <a href="https://www.google.com/">0</a>
                                 </div>
 
                                 <div className="line-vertical"></div>
@@ -158,21 +164,21 @@ const Main = () => {
                     <div className="row recipes-content">
                         <div className="col-xs-12 col-md-9-24">
                             <div className="recipes-img img4">
-                                <a href="#"></a>
+                                <a href="https://www.google.com/"></a>
                                 <div className="recipes-img-links">
                                     <div className="recipes-img-find">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                     <div className="separator"></div>
                                     <div className="recipes-img-hyperlink">
-                                        <a href="#"></a>
+                                        <a href="https://www.google.com/"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-15-24">
                             <div className="recipes-text">
-                                <a href="#">
+                                <a href="https://www.google.com/">
                                     <h3>
                                         Vivamus sit amet metus sem imperdiet
                                     </h3>
@@ -187,11 +193,13 @@ const Main = () => {
                             <div className="recipes-footer">
                                 <div className="recipes-comments">
                                     <img src={textDocument} width="12" alt="" />
-                                    <a href="#">Read more</a>
+                                    <a href="https://www.google.com/">
+                                        Read more
+                                    </a>
                                 </div>
                                 <div className="recipes-comments">
                                     <img src={chatMessage} width="12" alt="" />
-                                    <a href="#">0</a>
+                                    <a href="https://www.google.com/">0</a>
                                 </div>
                                 <div className="line-vertical"></div>
                             </div>
@@ -199,7 +207,7 @@ const Main = () => {
                     </div>
                     <div className="recipes">
                         <div className="button button_label">
-                            <a href="#">See all posts</a>
+                            <a href="https://www.google.com/">See all posts</a>
                         </div>
                     </div>
                 </section>
@@ -254,7 +262,9 @@ const Main = () => {
                                                     elit. className aptent
                                                     taciti sociosqu ad litora.
                                                 </p>
-                                                <a href="#">Read more</a>
+                                                <a href="https://www.google.com/">
+                                                    Read more
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -274,32 +284,32 @@ const Main = () => {
                                     <div className="row gallery-img">
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image1">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image2">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image3">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image4">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image5">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                         <div className="col-xs-12 col-sm-12 col-md-4 margin-top">
                                             <div className="gallery-img-item image6">
-                                                <a href="#"></a>
+                                                <a href="https://www.google.com/"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -337,22 +347,22 @@ const Main = () => {
                                                 <div className="links-item-list">
                                                     <ul>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Velit mauris
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Entum feuis
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Aliquam massa
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Egestas quam
                                                             </a>
                                                         </li>
@@ -361,22 +371,22 @@ const Main = () => {
                                                 <div className="links-item-list">
                                                     <ul>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Aenean ligula
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Dapibus at dolor
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Molestie id
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="https://www.google.com/">
                                                                 Vestibulum
                                                             </a>
                                                         </li>

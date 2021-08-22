@@ -8,7 +8,7 @@ const CooksListItem = (props) => {
                     <div
                         className={props.class} //"cook-item-img">
                     >
-                        <a href="#"></a>
+                        <a href="https://www.google.com/"></a>
                         <div className="cook-item-line"></div>
                     </div>
 

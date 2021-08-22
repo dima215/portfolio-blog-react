@@ -4,7 +4,7 @@ const Logo = () => {
     return (
         <>
             <div className="logo">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img src="img/recipes.png" alt="" />
                 </a>
             </div>
