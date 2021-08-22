@@ -5,8 +5,8 @@ const Footer = () => {
         <>
             <footer>
                 <h4>
-                    © 2021 Betheme by <a href="">Muffin group</a> | All Rights
-                    Reserved | Powered by <a href="">WordPress</a>
+                    © 2021 Betheme by <a href="#">Muffin group</a> | All Rights
+                    Reserved | Powered by <a href="#">WordPress</a>
                 </h4>
             </footer>
         </>

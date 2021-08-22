@@ -21,7 +21,7 @@ const CookList = () => {
                 <div className="col-xs-12 col-md-3">
                     <div className="cook-item">
                         <div className="cook-item-img one">
-                            <a href=""></a>
+                            <a href="#"></a>
                             <div className="cook-item-line"></div>
                         </div>
 
@@ -39,7 +39,7 @@ const CookList = () => {
                 <div className="col-xs-12 col-md-3">
                     <div className="cook-item">
                         <div className="cook-item-img two">
-                            <a href=""></a>
+                            <a href="#"></a>
                             <div className="cook-item-line"></div>
                         </div>
 
@@ -57,7 +57,7 @@ const CookList = () => {
                 <div className="col-xs-12 col-md-3">
                     <div className="cook-item">
                         <div className="cook-item-img three">
-                            <a href=""></a>
+                            <a href="#"></a>
                             <div className="cook-item-line"></div>
                         </div>
 
@@ -75,7 +75,7 @@ const CookList = () => {
                 <div className="col-xs-12 col-md-3">
                     <div className="cook-item">
                         <div className="cook-item-img four">
-                            <a href=""></a>
+                            <a href="#"></a>
                             <div className="cook-item-line"></div>
                         </div>
                         <div className="cook-item-name">
