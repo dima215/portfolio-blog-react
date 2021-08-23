@@ -6,8 +6,9 @@ const CookList = () => {
     return (
         <>
             <div className="row cook">
-                {cooksArray.map((cook) => (
+                {cooksArray.map((cook, idx) => (
                     <CooksListItem
+                        key={idx}
                         id={cook.id}
                         img={cook.img}
                         name={cook.name}

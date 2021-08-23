@@ -302,7 +302,7 @@ body {
     height: 116px;
 }
 
-.one {
+/* .one {
     background-image: url(../assets/home_recipes_home_icon4.png);
 }
 
@@ -316,7 +316,7 @@ body {
 
 .four {
     background-image: url(../assets/home_recipes_home_icon1.png);
-}
+} */
 
 .cook-item-line {
     background-color: rgba(31, 203, 130, 1);
