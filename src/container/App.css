@@ -141,6 +141,7 @@ body {
 
 .menu li:hover .submenu {
     display: block;
+    transition: all 500ms;
 }
 
 .submenu a {

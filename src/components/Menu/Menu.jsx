@@ -35,7 +35,7 @@ const Menu = () => {
                             </li>
                             <li>
                                 <a href="https://www.google.com/">
-                                    <Link to="/desert">Dessert</Link>
+                                    <Link to="/dessert">Dessert</Link>
                                 </a>
                             </li>
                         </ul>
