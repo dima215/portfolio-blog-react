@@ -83,6 +83,7 @@ body {
 
 .menu>li {
     float: left;
+    position: relative;
 }
 
 /*.menu>li:last-child{
@@ -125,6 +126,37 @@ body {
     border-top: solid 3px rgba(66, 52, 35, 1);
 }
 
+/*SUBMENU*/
+
+.submenu {
+    width: 146px;
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: -2px;
+    background-color: rgba(251, 251, 238, 1);
+    z-index: 100;
+    border-radius: 10px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    height: 35px;
+    line-height: 20px;
+    display: block;
+    border-bottom: solid 2px transparent;
+    padding: 0;
+}
+
+.submenu a:hover {
+    /* border-bottom: solid 2px black; */
+    text-decoration: underline;
+}
+
+
 /*SLIDER SLICK*/
 
 .top-slider {
@@ -165,11 +197,8 @@ body {
 /*SLIDER content*/
 
 .content-base {
-    width: 500px;
-    height: 240px;
-    margin: 160px auto;
-    /*border: blanchedalmond 1px solid;*/
     text-align: center;
+    padding-top: 160px;
 }
 
 .move-right {
@@ -401,7 +430,7 @@ body {
 .recipes-content {
     margin: 0 -15px;
     background-color: rgba(251, 251, 238, 1);
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .recipes-img {
@@ -418,7 +447,7 @@ body {
     height: 100%;
 }
 
-.recipes-img.img1 {
+/*.recipes-img.img1 {
     background-image: url(../assets/home_recipes_blog7.jpg);
 }
 
@@ -432,7 +461,7 @@ body {
 
 .recipes-img.img4 {
     background-image: url(../assets/home_recipes_blog2.jpg);
-}
+}*/
 
 .recipes-img:hover {
     background-position: bottom;
@@ -449,6 +478,7 @@ body {
     height: 0px;
     background-color: rgba(31, 203, 130, 1);
     transition: 300ms;
+
 }
 
 .recipes-img:hover .recipes-img-links {
@@ -508,7 +538,6 @@ body {
     background-color: rgba(246, 246, 233, 1);
     height: 45px;
     line-height: 45px;
-    margin-bottom: 30px;
 }
 
 .recipes-footer:after {
@@ -524,7 +553,7 @@ body {
 }
 
 .recipes-footer a {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 0px;
     font-family: "Roboto";
@@ -802,10 +831,11 @@ footer>h4>a:hover {
     text-decoration: underline;
 }
 
-a{
+a {
     position: relative;
 }
-a>span{
+
+a>span {
     height: 1px;
     width: 1px;
     position: absolute;

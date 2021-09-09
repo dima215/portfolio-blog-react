@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 const Menu = () => {
     return (
         <>
@@ -7,24 +9,51 @@ const Menu = () => {
                 <div className="menu-line"></div>
                 <ul className="menu">
                     <li>
-                        <a href="https://www.google.com/">Home</a>
-                    </li>
-                    <li>
                         <a href="https://www.google.com/">
-                            Traditional recipes
+                            <Link to="/">Home</Link>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.google.com/">Image gallery</a>
+                        <a href="https://www.google.com/">
+                            <Link to="/recipes">Traditional recipes</Link>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.google.com/">About us</a>
+                        <a href="https://www.google.com/">
+                            <Link to="/category">Category</Link>
+                        </a>
+                        <ul className="submenu">
+                            <li>
+                                <a href="https://www.google.com/">
+                                    <Link to="/maincourse">Main course</Link>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/">
+                                    <Link to="/snacks">Snacks</Link>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/">
+                                    <Link to="/desert">Dessert</Link>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="https://www.google.com/">Contact us</a>
+                        <a href="https://www.google.com/">
+                            <Link to="/gallery">Image gallery</Link>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.google.com/">Buy now</a>
+                        <a href="https://www.google.com/">
+                            <Link to="/about">About us</Link>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/">
+                            <Link to="/contact">Contact us</Link>
+                        </a>
                     </li>
                 </ul>
             </nav>
