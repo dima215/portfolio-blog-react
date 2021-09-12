@@ -6,6 +6,7 @@ import Slider from '../../components/Slider/Slider'
 import RecipesList from '../../components/Recipes/RecipesList'
 
 const HomePage = () => {
+    const filtrationCondition = 'home'
     return (
         <>
             <main>
@@ -22,7 +23,7 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section>
-                    <RecipesList />
+                    <RecipesList filtrationCondition={filtrationCondition} />
                     <div className="recipes">
                         <div className="button button_label">
                             <a href="https://www.google.com/">

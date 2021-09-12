@@ -2,10 +2,10 @@ import React from 'react'
 import RecipesList from '../../components/Recipes/RecipesList'
 
 const RecipesPage = () => {
-    let home = 'home'
+    const filtrationCondition = false
     return (
         <>
-            <RecipesList />
+            <RecipesList filtrationCondition={filtrationCondition} />
         </>
     )
 }
