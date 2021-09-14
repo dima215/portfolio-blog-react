@@ -1,16 +1,7 @@
 import React from 'react'
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-// Import Swiper styles
-//import 'swiper/swiper-bundle.css'
-import 'swiper/components/effect-fade'
-import 'swiper/components/navigation'
-import 'swiper/components/pagination'
-
-import 'swiper/swiper-bundle.js'
-import 'swiper/swiper-bundle.min.js'
 import 'swiper/swiper-bundle.css'
 import 'swiper/swiper-bundle.min.css'
 
@@ -29,7 +20,7 @@ const Slider = () => {
                 navigation={false}
                 pagination={{
                     clickable: true,
-                    dynamicBullets: true,
+                    dynamicBullets: false,
                 }}
                 className="mySwiper"
             >

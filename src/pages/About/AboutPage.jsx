@@ -1,4 +1,5 @@
 import React from 'react'
+import ShashlikPage from '../Recipes/RecipesItem/ShashlikPage'
 
 const AboutPage = () => {
     return (
@@ -6,6 +7,7 @@ const AboutPage = () => {
             <div className="recipes">
                 <h2>Newest About!</h2>
             </div>
+            <ShashlikPage />
         </>
     )
 }

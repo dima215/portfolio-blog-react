@@ -1,4 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import FavoriteIcon from '@material-ui/icons/Favorite'
+import { IconButton } from '@material-ui/core'
+
+import { connect } from 'react-redux'
 
 const RecipesListItem = ({
     id,
@@ -10,9 +16,23 @@ const RecipesListItem = ({
     imgTextDocument,
     imgChatMessage,
     category,
+    isLiked = false,
 }) => {
     const divStyle = {
         backgroundImage: 'url(' + img + ')',
+    }
+    const likeStyle = {
+        color: 'rgb(89, 190, 132)',
+    }
+
+    let link = '/maincourse'
+
+    if (category === 'Snacks') {
+        link = '/snacks'
+    } else {
+        if (category === 'Dessert') {
+            link = '/dessert'
+        }
     }
 
     return (
@@ -76,18 +96,32 @@ const RecipesListItem = ({
                         <div className="line-vertical"></div>
 
                         <div className="recipes-comments">
-                            <a href={linkRead}>
+                            <a href="https://www.google.com/">
                                 <span>
                                     Washington stimulates economic growth{' '}
                                 </span>
-                                {category}
+                                <Link to={link}>{category}</Link>
                             </a>
+                        </div>
+
+                        <div className="recipes-comments">
+                            <IconButton size="small" style={likeStyle}>
+                                {isLiked ? (
+                                    <FavoriteIcon />
+                                ) : (
+                                    <FavoriteBorderIcon />
+                                )}
+                            </IconButton>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/* <div className="col-xs-12 col-md-3">
+            {/* 
+            
+            
+            
+            <div className="col-xs-12 col-md-3">
                 <div className="cook-item">
                     <div
                         className={props.class + ' cook-item-img'}
@@ -112,4 +146,7 @@ const RecipesListItem = ({
     )
 }
 
-export default RecipesListItem
+const mapStateToProps = (state, props) => ({
+    isLiked: state[props.id],
+})
+export default connect(mapStateToProps)(RecipesListItem)
